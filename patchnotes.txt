@@ -1,0 +1,27 @@
+2 (2017-06-08)
+  - Added AlgExplorer.bat, a user-friendly batch file
+  - Added support for substitutions on algorithms with slice moves
+  - Added parsing of input algorithms that handles cancellations (R U R' U' U R2 -> R U R)
+  - Added flag -b: uses Chad Batten's evaluation scheme
+  - Added flags -tl <ltrims> and -tr <rtrims>: trims movestypes in ltrims and rtrims from left and right of algorithms, respectively
+  - Changed internal representation of algorithms and Markov model
+      -> Faster substitutions and ranking
+      -> Slower algorithm extraction and file output
+  - Fixed bug with progress bars (now display 10 |'s regardless of input size)
+  - Fixed bug with Python 3.x handling int division differently
+  prompt user for ratings after collecting trainign data (to fill in low-information things)
+  and rotations as premoves (alternate execution angles)
+  commute moves
+  rotations in the middle of moves (max n rotations)
+  combine Rr', etc
+  use a trie to represent algorithm lists? (sort a trie wrt evals...?) -> alglist class?
+    as you eavluate the trie, add to heap -> linearithmic
+    evaluateone in analyzer - takes prior key, new move, returns (eval, new key)
+  analyzer.analyze(alglist trie)?
+    generators? https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python
+  ??? scoring system no longer normalizes by algorithm length
+  ??? handle non-ce algs (with parens)
+  ??? factor out progress bar code?
+  ??? compile to executable
+  autoupdater?
+1 (2017-06-05)

@@ -1,0 +1,59 @@
+--------------------7 MOVERS--------------------
+ -0.97	R U R2 U' R' F R
+ -1.82	R U R2 U' l' U R
+ -1.95	R U R2 U' l' U l
+ -4.18	R U R2 U' R' F l
+-10.63	l F R2 F' l' F R
+-10.65	l F R2 F' R' D R
+-11.41	l F R2 F' R' D l
+-13.26	R U l2 D' R' B R
+-13.26	l F l2 B' R' U R
+-13.92	l F R2 F' l' F l
+-14.00	l F l2 B' R' U l
+-16.45	R U l2 D' R' B l
+-16.45	R U l2 D' l' D R
+-16.45	R U l2 D' l' D l
+-16.45	l F l2 B' l' B R
+-16.45	l F l2 B' l' B l
+--------------------11 MOVERS--------------------
+-14.80	R U' R' U' F2 D' B L B' D F2
+-14.80	R U' R' U' F2 D' B r D' F U2
+-14.91	l F' l' U' F2 D' B L B' D F2
+-14.91	l F' l' U' F2 D' B r D' F U2
+-14.97	l F' R' F' D2 B' U L U' B D2
+-15.27	l F' R' F' D2 B' U r B' D F2
+-17.29	R U' l' B' U2 F' D L D' F U2
+-17.29	R U' l' B' U2 F' D r F' U B2
+--------------------16 MOVERS--------------------
+ -4.56	D R2 U' R F' R' U R U F U' F' U' F R D'
+ -5.96	D R2 U' R F' R' U R U F U' F' U' F l B'
+ -8.08	D R2 U' l D' l' U R U F U' F' U' F R D'
+ -9.48	D R2 U' l D' l' U R U F U' F' U' F l B'
+ -9.56	D R2 U' R F' l' B l U F U' F' U' F R D'
+-10.96	D R2 U' R F' l' B l U F U' F' U' F l B'
+-11.24	D R2 U' R F' l' B R B U B' U' B' U R F'
+-11.92	D l2 D' l U' R' B l U F U' F' U' F R D'
+-12.19	D R2 U' R F' l' B R B U B' U' B' U l D'
+-12.20	D l2 D' l U' R' B R B U B' U' B' U R F'
+-12.53	D l2 D' R B' R' D l B U B' U' B' U R F'
+-13.15	D l2 D' l U' R' B R B U B' U' B' U l D'
+-13.31	D l2 D' l U' R' B l U F U' F' U' F l B'
+-13.48	D l2 D' R B' R' D l B U B' U' B' U l D'
+-13.65	D l2 D' l U' l' D l B U B' U' B' U R F'
+-14.14	D R2 U' R F' R' U l F D F' D' F' D R B'
+-14.14	D R2 U' R F' R' U l F D F' D' F' D l U'
+-14.61	D l2 D' l U' l' D l B U B' U' B' U l D'
+-16.04	D R2 U' l D' R' F R F D F' D' F' D R B'
+-16.04	D R2 U' l D' R' F R F D F' D' F' D l U'
+-17.35	D l2 D' R B' R' D R D B D' B' D' B R U'
+-17.35	D l2 D' R B' R' D R D B D' B' D' B l F'
+-17.40	D R2 U' l D' l' U l F D F' D' F' D R B'
+-17.40	D R2 U' l D' l' U l F D F' D' F' D l U'
+-17.44	D l2 D' R B' l' F R F D F' D' F' D R B'
+-17.44	D l2 D' R B' l' F R F D F' D' F' D l U'
+-18.72	D R2 U' l D' R' F l D B D' B' D' B R U'
+-18.72	D R2 U' l D' R' F l D B D' B' D' B l F'
+-18.81	D l2 D' l U' l' D R D B D' B' D' B R U'
+-18.81	D l2 D' l U' l' D R D B D' B' D' B l F'
+-20.15	D l2 D' R B' l' F l D B D' B' D' B R U'
+-20.15	D l2 D' R B' l' F l D B D' B' D' B l F'
