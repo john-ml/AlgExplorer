@@ -1,3 +1,0 @@
-U2 R2' U R U' R U U R U' R U U R U' R U R2 U
-U' R U R R U' R' F R U2 (4f) 
-U S U L M' E S2 R E' R' F M2 D L' F U F' B D2 S M' U' (12f)

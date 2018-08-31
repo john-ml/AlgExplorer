@@ -1,3 +1,0 @@
-R U' R' U' F F D' B L B' D F F  (13q*)
-D R2 U' R F' R' U R U F U' F' U' F R D' (17*f)
-R U R R U' R' F R (4f)
