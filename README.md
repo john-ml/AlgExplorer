@@ -1,4 +1,4 @@
-# AlgExplorer v2.0
+# AlgExplorer
 
 A command-line utility that sorts a list of algorithms by how usable they are for speedsolving.
 
