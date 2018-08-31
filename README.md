@@ -32,7 +32,8 @@ It also automatically apply common substitutions like `L = r x'` to generate mor
 
 ## Sample usage:
 
-Here's AlgExplorer running on a list of RUF Y-perms. The most popular Y-perms are ranked at the top of the 16- and 17-mover sections.
+Here's AlgExplorer running on a list of RUF Y-perms on unfiltered CubeExplorer output.
+The popular Y-perms everyone uses are ranked at the top of the 16- and 17-mover sections.
 
 ```
 > python algexplorer.py yperm_ruf.txt trained.txt -s -p 5 -o output.txt -tl Uxyz -tr Uxyz
