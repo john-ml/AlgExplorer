@@ -2,6 +2,10 @@
 
 A command-line utility that sorts a list of algorithms by how usable they are for speedsolving.
 
+Ranking is done by a Markov model that's been trained on ~4000 solves pulled from [cubesolv.es](cubesolv.es).
+
+It also automatically apply common substitutions like `L = r x'` to generate more ergonomic rewrites of algorithms with L, B, or D moves.
+
 ## Usage
 
 `python algexplorer.py <input path> <stored model> [-c <collection path> -t <collection path> -s -p <max peek> -o <output path> -b -tl <left trims> -tr <right trims>]`
