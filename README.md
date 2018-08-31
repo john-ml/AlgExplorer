@@ -1,21 +1,22 @@
-AlgExplorer v2.0
+# AlgExplorer v2.0
 
 A command-line utility that sorts a list of algorithms by how usable they are for speedsolving.
 
-Usage: algexplorer.py <input path> <stored model> [-c <collection path> -t <collection path> -s -p <max peek> -o <output path> -b -tl <left trims> -tr <right trims>]
+Usage: `python algexplorer.py <input path> <stored model> [-c <collection path> -t <collection path> -s -p <max peek> -o <output path> -b -tl <left trims> -tr <right trims>]`
 
-<input path>: Path to file with list of algorithms to be sorted.
-<stored model>: Path to file with stored Markov model (used to evaluate algorithms).
--c <collection path>: Collects algorithms from cubesolv.es and stores in <collection path>.
--t <collection path>: Reads algorithms from <collection path>, constructs Markov model, stores in <stored model>.
--s: In addition to algorithms in <input path>, also considers algorithms with substitutions L = r x', R = l x.
--p <max peek>: Prints top <max peek> algorithms for each movecount level.
--o <output path>: Writes complete sorted list to <output path>.
--b: Uses Chad Batten's spreadsheet evaluation scheme.
--tl <left trims>: Trims all moves in <left trims> to the left of each algorithm.
--tr <right trims>: Trims all moves in <right trims to the right of each algorithm.
+`<input path>`: Path to file with list of algorithms to be sorted.
+`<stored model>`: Path to file with stored Markov model (used to evaluate algorithms).
+`-c <collection path>`: Collects algorithms from cubesolv.es and stores in `<collection path>`.
+`-t <collection path>`: Reads algorithms from `<collection path>`, constructs Markov model, stores in `<stored model>`.
+`-s`: In addition to algorithms in `<input path>`, also considers algorithms with substitutions L = r x', R = l x.
+`-p <max peek>`: Prints top `<max peek>` algorithms for each movecount level.
+`-o <output path>`: Writes complete sorted list to `<output path>`.
+`-b`: Uses Chad Batten's spreadsheet evaluation scheme.
+`-tl <left trims>`: Trims all moves in `<left trims>` to the left of each algorithm.
+`-tr <right trims>`: Trims all moves in `<right trims>` to the right of each algorithm.
 
 Sample usage:
+```
 > python algexplorer.py yperm_ruf.txt trained.txt -s -p 5 -o output.txt -tl Uxyz -tr Uxyz
 Processing yperm_ruf.txt - extracted 237 algorithms.
 Performing substitutions |||||||||| - constructed 16043 new algorithms.
@@ -58,3 +59,4 @@ Writing output.txt |||||||||| - done.
  -1.09  F R U' R' U' R U R' F' R U R' U' l' U l F'
  -1.17  F R' F' R U R U' l' U l U' R' U R U R' F'
 Total time: 1.465s
+```
