@@ -15,7 +15,8 @@ Usage: `python algexplorer.py <input path> <stored model> [-c <collection path> 
 `-tl <left trims>`: Trims all moves in `<left trims>` to the left of each algorithm.
 `-tr <right trims>`: Trims all moves in `<right trims>` to the right of each algorithm.
 
-Sample usage:
+## Sample usage:
+
 ```
 > python algexplorer.py yperm_ruf.txt trained.txt -s -p 5 -o output.txt -tl Uxyz -tr Uxyz
 Processing yperm_ruf.txt - extracted 237 algorithms.
