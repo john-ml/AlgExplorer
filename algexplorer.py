@@ -13,10 +13,15 @@ def out(s):
     sys.stdout.flush()
 
 if __name__ == "__main__":
-    falgs, ftrained, flags = sys.argv[1], sys.argv[2], sys.argv[3:]
+    falgs, flags = sys.argv[1], sys.argv[2:]
     progress_bar_size = 10
     start = time.time()
     n = 2
+    
+    if "-m" in flags: # model
+        ftrained = flags[flags.index("-m") + 1]
+    else:
+        ftrained = "trained.txt"
 
     if "-c" in flags: # collect
         fcollection = flags[flags.index("-t") + 1]
