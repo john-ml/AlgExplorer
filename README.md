@@ -8,11 +8,11 @@ It also automatically apply common substitutions like `L = r x'` to generate mor
 
 ## Usage
 
-`python algexplorer.py <input path> <stored model> [-c <collection path> -t <collection path> -s -p <max peek> -o <output path> -b -tl <left trims> -tr <right trims>]`
+`python algexplorer.py <input path> [-m <stored model> -c <collection path> -t <collection path> -s -p <max peek> -o <output path> -b -tl <left trims> -tr <right trims>]`
 
 `<input path>`: Path to file with list of algorithms to be sorted.
 
-`<stored model>`: Path to file with stored Markov model (used to evaluate algorithms).
+`-m <stored model>`: Path to file with stored Markov model (used to evaluate algorithms). Default is `"trained.txt"` if left unspecified.
 
 `-c <collection path>`: Collects algorithms from cubesolv.es and stores in `<collection path>`.
 
