@@ -21,7 +21,7 @@ if __name__ == "__main__":
     if "-m" in flags: # model
         ftrained = flags[flags.index("-m") + 1]
     else:
-        ftrained = "trained.txt"
+        ftrained = os.path.join(os.path.dirname(__file__), "trained.txt")
 
     if "-c" in flags: # collect
         fcollection = flags[flags.index("-t") + 1]
